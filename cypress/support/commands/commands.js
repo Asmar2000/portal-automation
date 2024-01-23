@@ -104,7 +104,7 @@ Cypress.Commands.add('deleteChargePointConfirmBTN', () => {
 })
 
 
-//operator
+//operators
 Cypress.Commands.add('operatorIconSideMenu', () => {
     cy.get('[ptooltip="Operators"]')
 })

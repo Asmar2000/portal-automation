@@ -12,8 +12,8 @@ Make sure you have the following installed on your machine:
 - **cypress/**
   - **e2e/**: Houses your test files.
   - **fixtures/**: Contains data for your tests.
-  - **page_objects/**: Defines the Page Objects based on the POM.
   - **support/**: Contains utility files and custom commands.
+    - **pages/**: Defines the Page Objects based on the POM.
 - **cypress.json**: Cypress configuration file.
 - **package.json**: Node.js package file with project dependencies.
 

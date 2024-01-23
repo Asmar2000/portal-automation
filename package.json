@@ -1,0 +1,23 @@
+{
+  "name": "cpms-portal-automation",
+  "version": "1.0.0",
+  "description": "testing cpms portal using cypress",
+  "main": "index.js",
+  "scripts": {
+    "start:ci": "next dev",
+    "operator": "npx cypress run --spec cypress/e2e/operators.cy.js",
+    "login": "npx cypress run --spec cypress/e2e/login.cy.js",
+    "chargepoints": "npx cypress run --spec cypress/e2e/chargepoints.cy.js"
+  },
+  "author": "Mahmoud Lotfy",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "cypress": "^13.3.0",
+    "cypress-file-upload": "^5.0.8",
+    "mocha": "^10.2.0",
+    "random-mobile-numbers": "^1.0.1",
+    "random-name": "^0.1.2",
+    "random-number": "^0.0.9"
+  }
+}

@@ -10,8 +10,8 @@ Make sure you have the following installed on your machine:
 
 ## Project Structure
 - **cypress/**
+  - **e2e/**: Houses your test files.
   - **fixtures/**: Contains data for your tests.
-  - **integration/**: Houses your test files.
   - **page_objects/**: Defines the Page Objects based on the POM.
   - **support/**: Contains utility files and custom commands.
 - **cypress.json**: Cypress configuration file.
